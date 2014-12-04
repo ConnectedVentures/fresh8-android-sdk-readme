@@ -42,7 +42,7 @@ Fresh8 can be used for both article views and match page views:
     
           ```
           WebView webView = new WebView(this);
-        
+        	//Create banner height relative to screen
 		final int height = (int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 50, this.getResources().getDisplayMetrics());
         RelativeLayout.LayoutParams webViewParams= new RelativeLayout.LayoutParams(LayoutParams.FILL_PARENT, height);
         webViewParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
@@ -136,9 +136,7 @@ Fresh8 can be used for both article views and match page views:
     
     To assist in debugging
     
-    ```
-    Fresh8.enableDebugLogging(true);
+    `Fresh8.enableDebugLogging(true);`
 
-    ```
 
 
