@@ -62,7 +62,7 @@ Fresh8 can be used for both article views and match page views:
         1. For article view pages you will need to create and array of content to be classified.
             ```String content[] = {"Article Title", "Article Body"};```
             
-            Call the `Fresh9.presentAdBannerInView()` function
+            Call the `Fresh8.presentAdBannerInView()` function
             
             ```
             Fresh8.presentAdBannerInView(this, content, fresh8WebView, new Handler() {
